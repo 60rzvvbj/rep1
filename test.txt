@@ -6,15 +6,4 @@
 第五次改动
 第六次改动
 第七次改动
-master
-dev2
-dev2g2
-dev2g3
 
-asdasdasd
-sada
-
-
-sd
-ad
-a
