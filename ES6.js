@@ -1,3 +1,49 @@
+// ——————————————————箭头函数————————————————————
+//#region
+
+// 箭头函数用来简化函数定义语法的
+
+// const fn = () => {
+//     console.log(123);
+// };
+
+// fn();
+
+// 函数体中只有一句代码，且代码的结果是返回值，则可以省略大括号
+
+// const sum = (a, b) => a + b;
+// console.log(sum(10, 20));
+
+// 如果形参只有一个，则可以省略形参外侧的小括号
+
+// const doubling = x => 2 * x;
+// console.log(doubling(10));
+
+// 箭头函数不绑定this关键字，箭头函数中的this，指向的是函数定义位置的this
+
+// const obj = { name: '张三' };
+// function fn() {
+//     console.log(this);
+//     return () => {
+//         console.log(this);
+//     }
+// }
+// const resFn = fn.call(obj);
+// resFn();
+
+// 箭头函数不能使用arguments属性
+
+// const fun = function () {
+//     console.log(arguments);
+// }
+
+// const fn = () => {
+//     console.log(arguments);
+// }
+
+//#endregion
+
+
 // const sum = (...args) => {
 //     let res = 0;
 //     for (let i = 0; i < args.length; i++) {
